@@ -15,7 +15,7 @@ def plotLine(x0, y0, x1, y1):
     D = (2 * dy) - dx
     y = y0
 
-    for i in range (x0, x1 + 1):
+    for i in range (x0, x1 + 1):    
         plt.plot(i, y, 'go--', linewidth = 2, markersize = 6, linestyle='dashed')
         if D > 0:
             y = y + yi
